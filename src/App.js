@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//router
+import IndexRouters from "./router/index";
+import "./index.css";
+//scss
+import "./assets/scss/hope-ui.scss";
+import "./assets/scss/dark.scss";
+import "./assets/scss/rtl.scss";
+import "./assets/scss/custom.scss";
+import "./assets/scss/customizer.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <IndexRouters />
     </div>
   );
 }
